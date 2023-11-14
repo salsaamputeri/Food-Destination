@@ -1,0 +1,54 @@
+{
+    "id": "restaurant-app",
+    "start_url": "./index.html",
+    "name": "Food Destination Lite",
+    "short_name": "FoodDest Lite",
+    "description": "Food Destination with Reviews Around The World",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#99704F",
+    "icons": [
+      {
+        "src": "/icons/icon16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon24x24.png",
+        "sizes": "24x24",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon64x64.png",
+        "sizes": "64x64",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon128x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon256x256.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/icon512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ]
+  }

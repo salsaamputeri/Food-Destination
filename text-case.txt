@@ -1,0 +1,31 @@
+Test Case:
+1. Tampilkan halaman restoran.
+2. Jika restoran belum disukai, tampilkan widget untuk menyukai restoran. Widget ini berbentuk hati kosong.
+3. Jika restoran sudah disukai, tampilkan widget berbentuk hati penuh. Pengguna dapat membatalkan kesukaannya pada restoran ini.
+4. Berikan nama yang berbeda untuk "createLikeButtonTemplate" dan "createLikedButtonTemplate."
+
+Skenario Menyukai Restoran:
+1. Restoran belum disukai.
+2. Tampilkan widget untuk menyukai restoran.
+3. Pengguna mengklik widget menyukai.
+4. Restoran ditambahkan ke daftar restoran yang disukai.
+    a. Ternyata restoran sudah disukai:
+        - Tidak perlu menyimpannya lagi.
+    b. Data restoran tidak memiliki ID:
+        - Sistem tidak memproses penyimpanan.
+        - Sistem tidak gagal.
+
+Skenario Membatalkan Suka Restoran:
+1. Restoran sudah disukai.
+2. Tampilkan widget untuk membatalkan menyukai restoran.
+3. Pengguna mengklik widget pembatalan.
+4. Restoran dihapus dari daftar restoran yang disukai.
+    a. Ternyata restoran tidak ada dalam daftar restoran yang disukai.
+
+Skenario Tambah Review Costumer:
+1. Tampilkan halaman restoran.
+2. Pilih restoran yang ingin direview.
+3. Tampilkan form review.
+4. Isi form review.
+5. Pengguna mengklik tombol "Submit Review".
+6. Tampilkan review yang baru ditambahkan.
