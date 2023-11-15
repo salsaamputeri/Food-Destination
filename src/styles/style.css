@@ -92,7 +92,6 @@ button, a, input, input[type='text'], textarea {
   pointer-events: auto;
 }
 
-/* ini yang belum aman */
  .hero {
       position: relative;
       color: #fff;
