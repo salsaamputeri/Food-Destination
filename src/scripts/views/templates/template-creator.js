@@ -16,7 +16,7 @@ const generateStarIcons = (rating) => {
 
 const createRestaurantDetailTemplate = (restaurant) => `
   <div class="hero-image">
-    <img class="restaurant-poster" data-src="https://restaurant-api.dicoding.dev/images/medium/${restaurant.pictureId}" alt="${restaurant.name}" loading="lazy"/>
+    <img class="restaurant-poster lazyload" data-src="https://restaurant-api.dicoding.dev/images/medium/${restaurant.pictureId}" alt="${restaurant.name}" />
     <h2 class="restaurant-name">${restaurant.name}</h2>
     <div class="detailpage-ratings">
       <span>${restaurant.rating}</span>
