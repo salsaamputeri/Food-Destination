@@ -1,6 +1,6 @@
 # Panduan GitHub README
 
-- [Bagian 1]({#bagian-1)
+- [Bagian 1](#bagian-1)
 - [Bagian 2](#bagian-2)
 - [Bagian 3](#bagian-3)
 
